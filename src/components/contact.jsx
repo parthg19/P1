@@ -102,7 +102,7 @@ export const Contact = (props) => {
                 <span>
                   <i className='fa fa-map-marker'></i> Address
                 </span>
-                {props.data ? props.data.address : 'loading'}
+                {/* {props.data ? props.data.address : 'loading'} */}Bangalore, India
               </p>
             </div>
             <div className='contact-item'>
@@ -110,7 +110,7 @@ export const Contact = (props) => {
                 <span>
                   <i className='fa fa-phone'></i> Phone
                 </span>{' '}
-                {props.data ? props.data.phone : 'loading'}
+                {/* {props.data ? props.data.phone : 'loading'} */}NA
               </p>
             </div>
             <div className='contact-item'>
@@ -118,7 +118,7 @@ export const Contact = (props) => {
                 <span>
                   <i className='fa fa-envelope-o'></i> Email
                 </span>{' '}
-                {props.data ? props.data.email : 'loading'}
+                {/* {props.data ? props.data.email : 'loading'} */}NA
               </p>
             </div>
           </div>
@@ -150,9 +150,9 @@ export const Contact = (props) => {
       <div id='footer'>
         <div className='container text-center'>
           <p>
-            &copy; 2020 Issaaf Kattan React Land Page Template. Design by{' '}
-            <a href='http://www.templatewire.com' rel='nofollow'>
-              TemplateWire
+            &copy; 2022- Design by IT Squad{' '}
+            <a href='http://www.performant.live' rel='nofollow'>
+              IT Squad
             </a>
           </p>
         </div>
